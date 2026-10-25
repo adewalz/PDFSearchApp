@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PdfSearch" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/deep</item>
+        <item name="colorPrimaryDark">@color/ink</item>
+        <item name="colorAccent">@color/punch</item>
+        <item name="android:windowBackground">@color/paper</item>
+    </style>
+
+    <style name="KeywordLabel">
+        <item name="android:textColor">@color/gold</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+</resources>

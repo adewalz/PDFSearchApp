@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PDF Keyword Search</string>
+    <string name="app_title">PDF Keyword Search</string>
+    <string name="app_subtitle">Scan a folder of PDFs for keywords — no internet needed</string>
+
+    <string name="btn_pick_folder">Choose PDF Folder</string>
+    <string name="no_folder_selected">No folder selected</string>
+
+    <string name="hint_keywords">Keywords, one per line or comma-separated. Prefix with = for exact-phrase match.</string>
+    <string name="hint_ignore">Ignore filenames containing (comma-separated, optional)</string>
+    <string name="label_case_sensitive">Case-sensitive matching</string>
+
+    <string name="btn_scan">Scan PDFs</string>
+    <string name="btn_export_csv">CSV</string>
+    <string name="btn_export_txt">TXT</string>
+    <string name="hint_filter">Filter results by filename…</string>
+
+    <string name="btn_save">✔ Save</string>
+    <string name="btn_skip">✕ Skip</string>
+    <string name="btn_reset">↺ Reset</string>
+
+    <string name="badge_saved">Saved</string>
+    <string name="badge_error">Error</string>
+    <string name="badge_locked">Locked</string>
+    <string name="badge_scanned">Possibly scanned</string>
+
+    <string name="note_password_protected">This PDF is password-protected — tap Unlock to try a password.</string>
+    <string name="note_no_text_layer">No readable text found — this is likely a scanned/image-only PDF and can\'t be searched for keywords.</string>
+
+    <string name="btn_open_pdf">📄 Open PDF</string>
+    <string name="btn_unlock">🔓 Unlock</string>
+    <string name="label_recursive">Include subfolders</string>
+
+    <string name="dialog_password_title">Enter password</string>
+    <string name="dialog_password_message">%1$s is password-protected.</string>
+    <string name="dialog_password_hint">Password</string>
+    <string name="btn_unlock_confirm">Unlock</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="toast_wrong_password">Incorrect password, or file still couldn\'t be read</string>
+    <string name="toast_unlocked">Unlocked — re-scanned successfully</string>
+    <string name="toast_no_pdf_viewer">No PDF viewer app installed</string>
+    <string name="toast_permission_lost">Folder access was lost — please choose the folder again</string>
+    <string name="btn_share">Share</string>
+
+    <string name="toast_pick_folder_first">Choose a folder first</string>
+    <string name="toast_enter_keyword">Enter at least one keyword</string>
+    <string name="toast_exported">Saved to %1$s</string>
+
+    <string name="scan_progress_format">[%1$d/%2$d] %3$s — matched %4$d, errors %5$d</string>
+    <string name="scan_done_format">Done: %1$d PDFs scanned, %2$d matched, %3$.1fs</string>
+    <string name="summary_format">%1$d matched · %2$d saved</string>
+    <string name="result_meta_format">%1$s · %2$.2fs · %3$d keyword(s) · %4$d hit(s)</string>
+    <string name="kw_label_format">\'%1$s\'</string>
+    <string name="page_prefix">p.%1$d</string>
+
+    <string name="page_viewer_title">Page</string>
+    <string name="page_viewer_title_format">%1$s — page %2$d</string>
+
+    <string name="notif_scanning_title">Scanning PDFs</string>
+    <string name="notif_action_stop">Stop</string>
+    <string name="notif_done_title">Scan complete</string>
+    <string name="notif_done_text">%1$d of %2$d PDFs matched</string>
+    <string name="notif_paused_title">Scan paused</string>
+    <string name="notif_paused_text">%1$d scanned so far, %2$d matched — tap Resume in the app to continue</string>
+
+    <string name="btn_stop">⏸ Stop</string>
+    <string name="btn_resume_scan">▶ Resume scan</string>
+    <string name="btn_discard">Discard</string>
+    <string name="resume_banner_title">An interrupted scan was found</string>
+    <string name="resume_banner_subtitle_format">%1$s · %2$d file(s) scanned, %3$d matched so far</string>
+    <string name="toast_discarded">Discarded previous scan progress</string>
+    <string name="scan_paused_format">Paused — %1$d scanned, %2$d matched. Export below to save now, or Resume to continue scanning.</string>
+</resources>

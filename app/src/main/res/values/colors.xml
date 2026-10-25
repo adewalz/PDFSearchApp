@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#0F0F14</color>
+    <color name="paper">#F5F2EB</color>
+    <color name="paper_dim">#EEEAE0</color>
+    <color name="card">#FFFEF9</color>
+    <color name="line">#D8D3C8</color>
+    <color name="deep">#1A1A2E</color>
+    <color name="punch">#C8392B</color>
+    <color name="gold">#B8860B</color>
+    <color name="teal">#1A7A6E</color>
+    <color name="subtext">#1A1612</color>
+    <color name="sub">#6B6355</color>
+    <color name="pale">#A09585</color>
+</resources>
